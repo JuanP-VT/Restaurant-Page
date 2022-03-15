@@ -14,11 +14,14 @@ function initPage(){
     const $home = document.createElement('div')
     $home.id = 'home'
     $home.textContent = 'Home'
+    $home.classList.add('tab')
     const $menu = document.createElement('div')
     $menu.id = 'menu'
     $menu.textContent = 'Menu'
+    $menu.classList.add('tab')
     const $contact = document.createElement('div')
     $contact.id = 'contact'
+    $contact.classList.add('tab')
     $contact.textContent = 'Contact'
     $options.appendChild($home)
     $options.appendChild($menu)
@@ -26,15 +29,10 @@ function initPage(){
     const $maincontent = document.createElement('div')
     $maincontent.id = 'maincontent'
     $main.appendChild($maincontent)
+    const $footer = document.createElement('div')
+    $footer.id = 'footer'
+    $main.appendChild($footer)
 }
 
 export{ initPage}
 
-
-
-//     <div id="home">Home</div>
-//     <div id="menu">menu</div>
-//     <div id="contact"> contact</div>
-// </div>
-// </div>
-// </div>
