@@ -7,7 +7,7 @@
 }
 #header{
     display: flex;
-    height: 80px;
+    height: 20%;
     flex-direction: column;
 }
 #headertitle{
@@ -22,3 +22,7 @@
     padding: 20px;
 }
 
+#maincontent{
+    height:850px;
+    display: flex;
+}
