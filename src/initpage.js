@@ -1,10 +1,13 @@
+import gitImage from './img/git.png'
+
 //Creates DOM header
 function initPage(){
+    //Header
     const $header = document.createElement('div')
     $header.id = 'header'
     const $headertitle = document.createElement('div')
     $headertitle.id = 'headertitle'
-    $headertitle.textContent = 'Header'
+    $headertitle.textContent = 'Restaurante El Sabroso!'
     const $options = document.createElement('div')
     $options.id = 'options'
     const $main = document.querySelector('#main')
@@ -26,12 +29,25 @@ function initPage(){
     $options.appendChild($home)
     $options.appendChild($menu)
     $options.appendChild($contact)
+    //Body
     const $maincontent = document.createElement('div')
     $maincontent.id = 'maincontent'
     $main.appendChild($maincontent)
+    //Footer
     const $footer = document.createElement('div')
     $footer.id = 'footer'
     $main.appendChild($footer)
+    const $footerBox = document.createElement('div')
+    $footer.appendChild($footerBox)
+
+    const myImage = new Image();
+    myImage.src = gitImage
+    myImage.id = 'git'
+    $footerBox.id = 'footerbox'
+    $footerBox.append(myImage)
+    const $footertext = document.createElement('div')
+    $footertext.textContent = 'Project by JuanP'
+    $footer.appendChild($footertext)
 }
 
 export{ initPage}

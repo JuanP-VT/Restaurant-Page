@@ -1,14 +1,37 @@
+@font-face {
+    font-family: 'Akaya Telivigala';
+    src: url('AkayaTelivigala-Regular.woff2') format('woff2'),
+        url('AkayaTelivigala-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 *{
+    box-sizing: border-box;
     border: solid black 1px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Akaya Telivigala';
 }
-#body{
-    width: 100vw;
-    height: 100vh;
+body{
+
+    background-image: url(../src/img/bgimage.jpg);
+    background-attachment: fixed;
+    background-size: auto 100%;
+    background-position: center;
 }
+
 #header{
     display: flex;
     height: 20%;
     flex-direction: column;
+    background-color: black;
+    opacity: 0.7;
+    padding: 20px;
+
+
 }
 #headertitle{
     text-align: center;
@@ -20,6 +43,7 @@
     justify-content: center;
     flex:1;
     padding: 20px;
+    gap: 40px;
 }
 
 #maincontent{
@@ -28,4 +52,10 @@
 }
 #footer{
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#git{
+    height: 60px;
 }
