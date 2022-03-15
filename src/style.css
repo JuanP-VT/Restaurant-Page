@@ -1,0 +1,24 @@
+*{
+    border: solid black 1px;
+}
+#body{
+    width: 100vw;
+    height: 100vh;
+}
+#header{
+    display: flex;
+    height: 80px;
+    flex-direction: column;
+}
+#headertitle{
+    text-align: center;
+}
+
+#options{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    flex:1;
+    padding: 20px;
+}
+
