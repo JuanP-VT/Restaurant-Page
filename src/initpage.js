@@ -48,7 +48,7 @@ function initPage(){
     const $footertext = document.createElement('div')
     $footertext.textContent = 'Project by JuanP'
     $footer.appendChild($footertext)
+    $footer.appendChild($footer)
 }
 
 export{ initPage}
-
