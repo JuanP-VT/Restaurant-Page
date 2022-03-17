@@ -5,7 +5,7 @@ function home(){
     console.log('home')
     const $maincontent = document.querySelector('#maincontent')
     const $homemain = document.createElement('div')
-    $homemain.id = 'homemain'
+    $homemain.id = 'pagemain'
     const $homeWelcome = document.createElement('div')
     $homeWelcome.id = 'homewelcome'
     $homeWelcome.textContent = 'Bienvenidos'

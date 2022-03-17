@@ -13,7 +13,6 @@
 
 *{
     box-sizing: border-box;
-    border: solid black 1px;
     font-size: 30px;
     color: white;
     font-family: 'Akaya Telivigala';
@@ -23,6 +22,7 @@
     color: white;
     padding-left: 150px;
     padding-right: 150px;
+    margin: 50px;
 }
 #main{
     background-image: url(../src/img/bgimage.jpg);
@@ -43,6 +43,10 @@
 }
 #headertitle{
     text-align: center;
+    font-family: 'inspirationregular';
+    color:gold;
+    font-size: 2rem;
+
 }
 
 #options{
@@ -81,7 +85,7 @@ opacity: 0.9;
 transform: scale(1.1);
 
 }
-#homemain{
+#pagemain{
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -108,4 +112,25 @@ btn{
 btn:hover{
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     transform: scale(1.2);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-top: 50px;
+    
+}
+
+p{
+    margin: 1px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.highlight{
+    color: rgb(209, 185, 49);
+    font-weight: 1000;
 }
