@@ -15,11 +15,10 @@
     color: white;
     font-family: 'Akaya Telivigala';
 }
-body{
-
+#main{
     background-image: url(../src/img/bgimage.jpg);
     background-attachment: fixed;
-    background-size: auto 100%;
+    background-size: 100% auto;
     background-position: center;
 }
 
@@ -55,6 +54,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    opacity: 0.9;
 }
 #git{
     height: 60px;

@@ -7,7 +7,7 @@ function initPage(){
     $header.id = 'header'
     const $headertitle = document.createElement('div')
     $headertitle.id = 'headertitle'
-    $headertitle.textContent = 'Restaurante El Sabroso!'
+    $headertitle.textContent = 'Panaderia el Sabroso!'
     const $options = document.createElement('div')
     $options.id = 'options'
     const $main = document.querySelector('#main')
