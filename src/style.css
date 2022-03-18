@@ -85,6 +85,10 @@ opacity: 0.9;
 transform: scale(1.1);
 
 }
+.title{
+    font-size: 1rem;
+    border-bottom: solid 2px gold;
+}
 #pagemain{
     display: flex;
     flex-direction: column;
@@ -119,9 +123,9 @@ btn:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-right: 200px;
-    padding-left: 200px;
     margin-top: 50px;
+    border-bottom: 2px solid gold;
+    border-radius: 90px;
     
 }
 
@@ -133,4 +137,13 @@ p{
 .highlight{
     color: rgb(209, 185, 49);
     font-weight: 1000;
+}
+
+.info{
+    display: flex;
+}
+
+
+.icon{
+    margin-right: -120px;
 }

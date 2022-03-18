@@ -7,7 +7,7 @@ function menu(){
     $maincontent.appendChild($mainpage)
     const $menu = document.createElement('div')
     $menu.textContent = 'MENU'
-    $menu.id = 'menuTitle'
+    $menu.classList.add('title')
     $mainpage.appendChild($menu)
     
     const card1 = document.createElement('div')
@@ -35,7 +35,7 @@ function menu(){
     card2.appendChild(sampleTxt2)
     const price2 = document.createElement('p')
     price2.classList.add('highlight')
-    price2.textContent = '15$'
+    price2.textContent = '35$'
     card2.appendChild(price2)
 
 
@@ -59,7 +59,7 @@ function menu(){
     card4.classList.add('card')
     const p4 = document.createElement('p')
     p4.classList.add('highlight')
-    p4.textContent = 'Coricos'
+    p4.textContent = 'Dona'
     card4.appendChild(p4)
     const sampleTxt4 = document.createElement('p')
     sampleTxt4.textContent ='lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat, tellus sit amet'
