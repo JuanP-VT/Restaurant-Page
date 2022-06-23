@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
 * {
   box-sizing: border-box;
   font-size: 30px;
@@ -30,7 +31,7 @@
 }
 #headertitle {
   text-align: center;
-  font-family: "inspirationregular";
+  font-family: "Caveat", cursive;
   color: gold;
   font-size: 2rem;
 }
@@ -64,6 +65,12 @@
   background-color: black;
   opacity: 0.8;
 }
+btn {
+  cursor: pointer;
+}
+.tab {
+  cursor: pointer;
+}
 .tab:hover {
   border-bottom: 3px solid gold;
   opacity: 0.9;
@@ -82,7 +89,7 @@
   align-items: center;
 }
 #homewelcome {
-  font-family: "inspirationregular";
+  font-family: "Caveat", cursive;
   font-size: 5rem;
   color: gold;
 }
@@ -122,10 +129,13 @@ p {
   padding-right: 100px;
 }
 .highlight {
+  padding-bottom: 20px;
   color: rgb(209, 185, 49);
   font-weight: 1000;
 }
-
+.card p {
+  padding-bottom: 5px;
+}
 .info {
   display: flex;
 }
