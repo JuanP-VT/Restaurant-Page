@@ -1,149 +1,135 @@
-@font-face {
-    font-family: 'Akaya Telivigala';
-    src: url('AkayaTelivigala-Regular.woff2') format('woff2'),
-        url('AkayaTelivigala-Regular.woff') format('woff');
-        font-family: 'inspirationregular';
-        src: url('inspiration-regular-webfont.woff2') format('woff2'),
-             url('inspiration-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+* {
+  box-sizing: border-box;
+  font-size: 30px;
+  color: white;
+  font-family: "Akaya Telivigala";
+  padding: 0px;
+  margin: 0px;
+}
+.text {
+  font-size: 1rem;
+  color: white;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin: 50px;
+}
+#main {
+  background-image: url(../src/img/bgimage.jpg);
+  background-attachment: fixed;
+  background-size: 100% auto;
+  background-position: center;
 }
 
-
-*{
-    box-sizing: border-box;
-    font-size: 30px;
-    color: white;
-    font-family: 'Akaya Telivigala';
+#header {
+  display: flex;
+  height: 20%;
+  flex-direction: column;
+  background-color: black;
+  opacity: 0.7;
+  padding: 20px;
 }
-.text{
-    font-size: 1rem;
-    color: white;
-    padding-left: 150px;
-    padding-right: 150px;
-    margin: 50px;
-}
-#main{
-    background-image: url(../src/img/bgimage.jpg);
-    background-attachment: fixed;
-    background-size: 100% auto;
-    background-position: center;
+#headertitle {
+  text-align: center;
+  font-family: "inspirationregular";
+  color: gold;
+  font-size: 2rem;
 }
 
-#header{
-    display: flex;
-    height: 20%;
-    flex-direction: column;
-    background-color: black;
-    opacity: 0.7;
-    padding: 20px;
-
-
-}
-#headertitle{
-    text-align: center;
-    font-family: 'inspirationregular';
-    color:gold;
-    font-size: 2rem;
-
+#options {
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  flex: 1;
+  padding: 20px;
+  gap: 40px;
 }
 
-#options{
-    display: flex;
-    height: 30px;
-    justify-content: center;
-    flex:1;
-    padding: 20px;
-    gap: 40px;
+#footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 0.9;
+}
+#git {
+  height: 60px;
 }
 
-
-#footer{
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    opacity: 0.9;
+#maincontent {
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 0.8;
 }
-#git{
-    height: 60px;
+.tab:hover {
+  border-bottom: 3px solid gold;
+  opacity: 0.9;
+  transform: scale(1.1);
 }
-
-#maincontent{
-    height:850px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    opacity: 0.8;
+.title {
+  font-size: 1rem;
+  border-bottom: solid 2px gold;
 }
-.tab:hover{
-border-bottom: 3px solid gold;
-opacity: 0.9;
-transform: scale(1.1);
-
+#pagemain {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
-.title{
-    font-size: 1rem;
-    border-bottom: solid 2px gold;
-}
-#pagemain{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-#homewelcome{
-    font-family: 'inspirationregular';
-    font-size: 5rem;
-    color: gold;
+#homewelcome {
+  font-family: "inspirationregular";
+  font-size: 5rem;
+  color: gold;
 }
 
-btn{
-    background-color: gold;
-    border: 2px black solid;
-    border-radius: 10px;
-    opacity: 1 !important; 
-    color: black;
-    width: 150px;
-    height: 40px;
-    text-align: center;
+btn {
+  background-color: gold;
+  border: 2px black solid;
+  border-radius: 10px;
+  opacity: 1 !important;
+  color: black;
+  width: 150px;
+  height: 40px;
+  text-align: center;
 }
-btn:hover{
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    transform: scale(1.2);
-}
-
-.card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    border-bottom: 2px solid gold;
-    border-radius: 90px;
-    
+btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  transform: scale(1.2);
 }
 
-p{
-    margin: 1px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-.highlight{
-    color: rgb(209, 185, 49);
-    font-weight: 1000;
-}
-
-.info{
-    display: flex;
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border-bottom: 2px solid gold;
+  border-radius: 90px;
 }
 
+p {
+  margin: 1px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.highlight {
+  color: rgb(209, 185, 49);
+  font-weight: 1000;
+}
 
-.icon{
-    margin-right: -120px;
+.info {
+  display: flex;
+}
+
+.icon {
+  margin-right: -120px;
 }
